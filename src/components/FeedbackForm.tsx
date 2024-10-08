@@ -154,19 +154,20 @@ const FeedbackForm: React.FC<FeedbackFormProps> = ({ onProgress }) => {
 
       {/* for laptop */}
       <div className="hidden m-10 w-[75%] lg:block mt-10 rounded-xl shadow-lg p-4 border-[1px] border-black/30 capitalize">
-        <h1 className="font-bold text-2xl my-2 mt-5 ">{projectName}</h1>
+        {/* <p>your project Name:</p> */}
+
+        {projectName !== "" ? (
+          <h1 className="font-bold text-2xl my-2 mt-5 ">{projectName}</h1>
+        ) : (
+          <p className="text-black/70">Project Name</p>
+        )}
 
         <div>
+          <p className="mt-5 text-black/70">Your Tasks:</p>
           <p className="border-b-[1px] py-3 border-black/30">{taskOne}</p>
           <p className="border-b-[1px] py-3 border-black/30">{taskTwo}</p>
           <p className="border-b-[1px] py-3 border-black/30">{taskThree}</p>
         </div>
-        <button
-          onClick={() => router.refresh()}
-          className="bg-red-600 mt-10 rounded-xl text-white py-3 w-[50%] text-xl"
-        >
-          Done
-        </button>
       </div>
     </div>
   );
