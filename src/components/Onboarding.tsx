@@ -16,7 +16,7 @@ const Onboarding: React.FC<SignUpProps> = ({ setToken }) => {
       {!isSignup ? (
         <div className="p-8 flex lg:flex-row h-screen lg:gap-5  w-full flex-col justify-center items-center ">
           <Image
-            className=" object-cover h-[450px] w-[500px] lg:-my-[3.5rem] -my-10 bg-red-400"
+            className=" object-cover h-[450px] w-[500px] lg:-my-[3.5rem] -my-10 bg-red-400 rounded-full"
             src="/assets/ICFPLUS.png"
             width={1000}
             height={1000}

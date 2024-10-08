@@ -70,7 +70,7 @@ const FeedbackForm: React.FC<FeedbackFormProps> = ({ onProgress }) => {
                 value={projectName}
                 onChange={(e) => setProjectName(e.target.value)}
                 className="w-full mb-3 mt-4 p-3 border border-gray-300 rounded-xl "
-                placeholder="Enter your suggestions..."
+                placeholder="Enter your project name..."
               />
               <button
                 onClick={() =>
