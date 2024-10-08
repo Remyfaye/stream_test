@@ -22,7 +22,7 @@ const SignUp: React.FC<SignUpProps> = ({ setToken }) => {
   };
 
   return (
-    <div className="p-5">
+    <div className="p-5 max-w-xl mx-auto">
       <div className=" my-5">
         <h1 className="text-2xl text-center font-bold  text-red-700 ">
           ICFPLUS
@@ -30,7 +30,7 @@ const SignUp: React.FC<SignUpProps> = ({ setToken }) => {
         <h1 className="text-center text-xl">Work without limits</h1>
       </div>
 
-      <form className="">
+      <form className="mt-10">
         <div className="flex flex-col  my-5">
           <label className="text-gray-400">Username</label>
           <input

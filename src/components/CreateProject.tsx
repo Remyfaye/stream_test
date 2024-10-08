@@ -14,7 +14,7 @@ const CreateProject = () => {
     setCompletionRate(progress);
   };
   return (
-    <div className="p-5">
+    <div className="p-5 lg:p-10">
       <h1 className="text-3xl font-bold text-red-600 mb-3 capitalize">
         Hi, {username}
       </h1>
