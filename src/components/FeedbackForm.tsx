@@ -55,7 +55,7 @@ const FeedbackForm: React.FC<FeedbackFormProps> = ({ onProgress }) => {
 
   return (
     <div className="flex gap-10 ">
-      <div className="max-w-2xl">
+      <div className="max-w-2xl mx-auto">
         {screen === "screenOne" && (
           <>
             <div className="mt-10">
@@ -134,7 +134,7 @@ const FeedbackForm: React.FC<FeedbackFormProps> = ({ onProgress }) => {
         )}
 
         {screen === "screenThree" && (
-          <div className="mt-10 lg:hidden rounded-xl shadow-lg p-4 border-[1px] border-black/30 capitalize">
+          <div className="mt-10 w-[350px]  lg:hidden rounded-xl shadow-lg p-4 border-[1px] border-black/30 capitalize">
             <h1 className="font-bold text-2xl my-2 mt-5 ">{projectName}</h1>
 
             <div>
@@ -153,7 +153,7 @@ const FeedbackForm: React.FC<FeedbackFormProps> = ({ onProgress }) => {
       </div>
 
       {/* for laptop */}
-      <div className="hidden m-10 w-[75%] lg:block mt-10 rounded-xl shadow-lg p-4 border-[1px] border-black/30 capitalize">
+      <div className="hidden m-10 lg:w-[75%] lg:block mt-10 rounded-xl shadow-lg p-4 border-[1px] border-black/30 capitalize">
         {/* <p>your project Name:</p> */}
 
         {projectName !== "" ? (
