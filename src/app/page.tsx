@@ -2,7 +2,6 @@
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import SignUp from "@/components/SignUp";
-import Dashboard from "@/components/Dashboard";
 import Onboarding from "@/components/Onboarding";
 import CreateProject from "@/components/CreateProject";
 

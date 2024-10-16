@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
-import { Instrument_Sans } from "next/font/google";
+import { Inclusive_Sans } from "next/font/google";
 import "./globals.css";
 
-const sora = Instrument_Sans({
+const sora = Inclusive_Sans({
   weight: "400",
   subsets: ["latin"],
 });

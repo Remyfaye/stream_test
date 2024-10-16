@@ -153,7 +153,7 @@ const FeedbackForm: React.FC<FeedbackFormProps> = ({ onProgress }) => {
       </div>
 
       {/* for laptop */}
-      <div className="hidden my-10 w-[75%] lg:block mt-10 rounded-xl shadow-lg p-4 border-[1px] border-black/30 capitalize">
+      <div className="hidden mx-auto  my-10 w-[75%] lg:block mt-10 rounded-xl shadow-lg p-4 border-[1px] border-black/30 capitalize">
         {/* <p>your project Name:</p> */}
 
         {projectName !== "" ? (
